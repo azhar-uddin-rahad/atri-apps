@@ -221,6 +221,8 @@ a{
     font-weight: 500;
     font-size: 17px;
 }
+/* browse menu end */
+/* About us start */
 .aboutUs {
     padding-top: 150px;
     padding-left: 150px;
@@ -297,4 +299,75 @@ a{
 .aboutButton {
     margin-top: 30px;
 }
-/* browse menu end */
+/* About us end */
+
+/* browseMenu 2 start  */
+.browseMenuHeader h3{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.browseMenuHeader p{
+    max-width:800px;
+    margin: auto;
+    font-size: 18px;
+    font-weight: 500;
+    
+    color: var(--secondary-color);
+}
+
+
+/*About us end  */
+/* browseMenu 2 start  */
+
+.cardWraper{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.cardInner{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center ;
+}
+.cardImg{
+    width: 100%;
+    margin-bottom: 20px;
+    position: relative;
+}
+.price{
+    position: absolute;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 18px;
+    right: 15px;
+    top: 15px;
+}
+.price p{
+    font-size: 18px;
+    font-weight: 700;
+}
+.cardImg img{
+    width: 100%;
+    border-radius: 50px;
+}
+
+.cardDetails h3{
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+
+}
+.cardDetails p{
+    font-size: 16px;
+    text-align: center;
+    font-weight: 500;
+    color: var(--secondary-color);
+    
+}
+
+
+/* browseMenu 2 end  */
