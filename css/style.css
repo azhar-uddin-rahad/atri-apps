@@ -22,16 +22,18 @@ a{
     padding: 0;
     font-family: var(--main-font);
 }
+/* navbar part start  */
 .navBarWraper{
     display: flex;
+    justify-content: space-around;
     align-items: center;
-    justify-content: center;
-    gap: 30px;
-    padding: 20px;
-
-    
+    font-family: var(--main-font);
+    font-weight: 500;
+    font-size: 18px;
+    color: var(--secondary-color);
+    padding-top: 20px;
+    padding-bottom: 30px;
 }
-
 .navBarWraper .navAndLogo{
     display: flex;
     width: 70%;
@@ -52,7 +54,7 @@ a{
    
 }
 .navBarWraper .navBtn{
-    width: 25%;
+    width: 30%;
 }
 
 .btn1{
@@ -90,4 +92,68 @@ a{
 
 .mr-10{
     margin-right: 10px;
+}
+
+/* navbar part end  */
+
+/* hero part start  */
+.heroWraper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20%;
+    
+}
+.heroLeft{
+    width: 50%;
+  
+}
+.leftContent{
+    padding-left: 150px;
+}
+
+.leftContent h1{
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 70px;
+    padding-right: 100px;
+   
+   
+}
+.leftContent h1 span {
+    color: var(--main-color);
+}
+
+.leftContent p{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 20px; 
+    color: var(--secondary-color);
+}
+.leftContent .mt-20{
+    margin-top: 20px;
+}
+.heroRight{
+    width: 30%;    
+}
+.imgage{
+    position: absolute;
+    width: 400px;
+    top: 150px;
+    left: 60%;
+}
+.imgage img{
+    width: 100%;
+    border-radius: 15px;
+}
+.bg-color{
+    background-color: var(--main-color);
+    padding-top: 250px;
+    padding-bottom: 250px;
+    position: relative;
+}
+/* hero part end  */
+.mb-100{
+    margin-bottom: 100px;
+
 }
