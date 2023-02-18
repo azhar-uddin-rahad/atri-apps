@@ -587,3 +587,97 @@ height: 100%;
     line-height: 30px;
 }
 /* ourArticles end */
+
+/* book table start  */
+.bookTableWraper{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 20px;
+    position: relative;
+}
+.bookTableLeft{
+    padding-top: 100px;
+    padding-left: 150px;
+    padding-bottom: 100px;
+}
+.bookTablesDetails{
+    padding-top: 100px;
+    padding-right: 500px;
+}
+
+.bookTablesDetails h3 {
+    font-weight: 700;
+    font-size: 34px;
+   
+}
+
+.bookTablesDetails p{
+    font-weight: 500;
+    font-size: 16px;
+    color: #727171;
+    padding-left: 0;
+}
+.bookIcon{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.bookTableRight{
+    width: 50%;
+    position: relative;
+}
+
+.bookTableColor{
+    background-color: var(--main-color);
+    padding-top: 400px;
+    padding-bottom: 400px;
+}
+
+.bookForm{
+    position: absolute;
+    background-color: #ffffff;
+    flex-direction: column;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 80px;
+    gap: 30px;
+    padding-bottom: 30px;
+    right: 140px;
+    top: 100px;
+    border-radius: 40px;
+    border: 2px solid #d9d4d4;
+}
+.InputFlex{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.fieldOne h5{
+    margin-bottom: 20px;
+}
+.inputBox{
+    margin-bottom: 30px;
+    box-sizing: border-box;
+    padding-top: 11px;
+    padding-left: 15px;
+    padding-bottom: 11px;
+    padding-right: 15px;
+    color: #000000d9;
+    font-size: 14px;
+    background-color: #fff;
+    background-image: none;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #d9d9d9;
+    border-radius: 20px;
+}
+.addNote h5{
+    margin-bottom: 20px;
+}
+.addNote input{
+    width: 100%;
+    padding: 70px;
+}
+/* book table end */
