@@ -340,15 +340,23 @@ a{
 }
 .price{
     position: absolute;
-    padding: 10px;
-    background-color: #ffffff;
-    border-radius: 18px;
     right: 15px;
     top: 15px;
 }
 .price p{
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 700;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #ffffff;
+    border-radius: 25px;
+    color: #000000;
+    
+}
+.text-center{
+    align-items: center;
 }
 .cardImg img{
     width: 100%;
@@ -719,4 +727,44 @@ height: 100%;
     width: 100%;
 }
 
+.footerWraper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+    padding-top: 100px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 50px;
+}
+
+.footerLogos{
+    width: 50%;
+    padding-bottom: 80px;
+}
+
+
+.Pages{
+    width: 10%;
+}
+.folloImges{
+    width: 30%;
+}
+.folloImges h3{
+    
+}
+.folloImges .gridSystem{
+    width: 100%;
+    margin-top: 20px;
+}
+.Pages h3{
+    margin-bottom: 30px;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.Pages ul li {
+    color: var(--secondary-color);
+    line-height: 30px;
+}
 /* Follow us end  */
